@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'OpenCV Document Scanner',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text('Flutter Demo Home Page')),
+        appBar: AppBar(title: Text('OpenCV Document Scanner')),
         body: Container(),
       ),
     );
