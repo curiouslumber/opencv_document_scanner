@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryLight">#42000000</color>
-    <color name="colorPrimary">#73000000</color>
-    <color name="colorPrimaryDark">#DD000000</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryLight">#FF000000</color>  <!-- Fully opaque black -->
+    <color name="colorPrimary">#FF000000</color>      <!-- Fully opaque black -->
+    <color name="colorPrimaryDark">#FF000000</color>  <!-- Fully opaque black -->
+    <color name="colorAccent">#D81B60</color>         <!-- No transparency issue -->
 
-    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorTransparent">#00FFFFFF</color>  <!-- Transparency is fine for this -->
 </resources>

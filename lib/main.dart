@@ -16,7 +16,11 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: Text('OpenCV Document Scanner')),
-        body: Container(),
+        body: Container(
+          alignment: Alignment.bottomRight,
+          padding: EdgeInsets.only(bottom: 32.0, right: 32.0),
+          child: FloatingActionButton(onPressed: () {}, child: Icon(Icons.add)),
+        ),
       ),
     );
   }
